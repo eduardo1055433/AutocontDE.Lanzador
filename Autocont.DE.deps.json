@@ -9,10 +9,70 @@
       "Autocont.DE/1.0.0": {
         "dependencies": {
           "Autocont.Definitive.Infraestructura": "1.0.0",
-          "Autocont.Definitive.Model": "1.0.0"
+          "Autocont.Definitive.Model": "1.0.0",
+          "Krypton.Docking": "85.24.10.288",
+          "Krypton.Navigator": "85.24.10.288",
+          "Krypton.Ribbon": "85.24.10.288",
+          "Krypton.Toolkit": "85.24.10.288",
+          "Krypton.Workspace": "85.24.10.288"
         },
         "runtime": {
           "Autocont.DE.dll": {}
+        }
+      },
+      "Krypton.Docking/85.24.10.288": {
+        "dependencies": {
+          "Krypton.Navigator": "85.24.10.288",
+          "Krypton.Toolkit": "85.24.10.288",
+          "Krypton.Workspace": "85.24.10.288"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Docking.dll": {
+            "assemblyVersion": "85.24.10.288",
+            "fileVersion": "85.24.10.288"
+          }
+        }
+      },
+      "Krypton.Navigator/85.24.10.288": {
+        "dependencies": {
+          "Krypton.Toolkit": "85.24.10.288"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Navigator.dll": {
+            "assemblyVersion": "85.24.10.288",
+            "fileVersion": "85.24.10.288"
+          }
+        }
+      },
+      "Krypton.Ribbon/85.24.10.288": {
+        "dependencies": {
+          "Krypton.Toolkit": "85.24.10.288"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Ribbon.dll": {
+            "assemblyVersion": "85.24.10.288",
+            "fileVersion": "85.24.10.288"
+          }
+        }
+      },
+      "Krypton.Toolkit/85.24.10.288": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Toolkit.dll": {
+            "assemblyVersion": "85.24.10.288",
+            "fileVersion": "85.24.10.288"
+          }
+        }
+      },
+      "Krypton.Workspace/85.24.10.288": {
+        "dependencies": {
+          "Krypton.Navigator": "85.24.10.288",
+          "Krypton.Toolkit": "85.24.10.288"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Workspace.dll": {
+            "assemblyVersion": "85.24.10.288",
+            "fileVersion": "85.24.10.288"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -50,6 +110,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Krypton.Docking/85.24.10.288": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JS8QB4X3g7Et7ZNwrKSFFQAzqoazEAP/jTTFI0q1gxHwLjdAfLxXqGewCGH/FN3su7t15cxy2X9Z+PniYcWWWw==",
+      "path": "krypton.docking/85.24.10.288",
+      "hashPath": "krypton.docking.85.24.10.288.nupkg.sha512"
+    },
+    "Krypton.Navigator/85.24.10.288": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NXXfemB19e/2/19pncXlo6SO9AWe7SLUiG61+DM8R9cJ1vZs5VHQv0Q/oVVadM5DV7UwYXGqavo8h//84L8onQ==",
+      "path": "krypton.navigator/85.24.10.288",
+      "hashPath": "krypton.navigator.85.24.10.288.nupkg.sha512"
+    },
+    "Krypton.Ribbon/85.24.10.288": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dBh11nK1sbUkC6odg7lYecyOvmWXyqswjKosypmuoKFCQlSFHy+t2gmcAHdMidR5kIa4kN9e8ZObwkCO5gRMXQ==",
+      "path": "krypton.ribbon/85.24.10.288",
+      "hashPath": "krypton.ribbon.85.24.10.288.nupkg.sha512"
+    },
+    "Krypton.Toolkit/85.24.10.288": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aiR3QeeGiZu1OJGJPp0+ItXlsk8qtAPpT+LJ121Xo4j8cFxq5Fn9M7zqJu6WO5gBOtE1pa5qHoSkvu6etsXerw==",
+      "path": "krypton.toolkit/85.24.10.288",
+      "hashPath": "krypton.toolkit.85.24.10.288.nupkg.sha512"
+    },
+    "Krypton.Workspace/85.24.10.288": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iNG+fNngbAMu+k5JZcS8F3xrAWiggNWFYHxVDQf0qVYrE3HUac46bxRXW1zb9ZgCjXwvfkWErl/bbN6aib41ig==",
+      "path": "krypton.workspace/85.24.10.288",
+      "hashPath": "krypton.workspace.85.24.10.288.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
