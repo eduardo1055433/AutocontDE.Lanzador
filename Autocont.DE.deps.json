@@ -10,14 +10,24 @@
         "dependencies": {
           "Autocont.Definitive.Infraestructura": "1.0.0",
           "Autocont.Definitive.Model": "1.0.0",
+          "FontAwesome.Sharp": "6.6.0",
           "Krypton.Docking": "85.24.10.288",
           "Krypton.Navigator": "85.24.10.288",
           "Krypton.Ribbon": "85.24.10.288",
           "Krypton.Toolkit": "85.24.10.288",
-          "Krypton.Workspace": "85.24.10.288"
+          "Krypton.Workspace": "85.24.10.288",
+          "System.Management": "9.0.0"
         },
         "runtime": {
           "Autocont.DE.dll": {}
+        }
+      },
+      "FontAwesome.Sharp/6.6.0": {
+        "runtime": {
+          "lib/net8.0-windows7.0/FontAwesome.Sharp.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.0"
+          }
         }
       },
       "Krypton.Docking/85.24.10.288": {
@@ -83,6 +93,33 @@
           }
         }
       },
+      "System.CodeDom/9.0.0": {
+        "runtime": {
+          "lib/net8.0/System.CodeDom.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Management/9.0.0": {
+        "dependencies": {
+          "System.CodeDom": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
       "Autocont.Definitive.Infraestructura/1.0.0": {
         "dependencies": {
           "Autocont.Definitive.Model": "1.0.0",
@@ -110,6 +147,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FontAwesome.Sharp/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bJCb2x73UC1nD9+9iMLaUy6Ujf9Pf+buL6FHwVnaoDYT4CQNLazz59hO5gQ0+SMSW0G+ZXmjjShOYr3Jn2UZiw==",
+      "path": "fontawesome.sharp/6.6.0",
+      "hashPath": "fontawesome.sharp.6.6.0.nupkg.sha512"
     },
     "Krypton.Docking/85.24.10.288": {
       "type": "package",
@@ -152,6 +196,20 @@
       "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.CodeDom/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTE5IfuMoET8yaZP/vdvy9xO47guAv/rOhe4DODuFBN3ySprcQOlXqO3j+e/H/YpKKR5sglrxRaZ2HYOhNJrqA==",
+      "path": "system.codedom/9.0.0",
+      "hashPath": "system.codedom.9.0.0.nupkg.sha512"
+    },
+    "System.Management/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bVh4xAMI5grY5GZoklKcMBLirhC8Lqzp63Ft3zXJacwGAlLyFdF4k0qz4pnKIlO6HyL2Z4zqmHm9UkzEo6FFsA==",
+      "path": "system.management/9.0.0",
+      "hashPath": "system.management.9.0.0.nupkg.sha512"
     },
     "Autocont.Definitive.Infraestructura/1.0.0": {
       "type": "project",
